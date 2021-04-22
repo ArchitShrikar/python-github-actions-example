@@ -5,7 +5,7 @@ a=2
 b=3
 @app.route("/")
 def index():
-    return str(a+b) 
+    return "The sum is : " + str(a+b) 
 @app.route("/sub")
 def sub():
     return str(a-b)
